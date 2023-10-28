@@ -58,6 +58,16 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.sluzbyKancelare {
+    display: flex;
+    flex-direction: column;
+}
+
+.sluzbyDelegata {
+    display: flex;
+    flex-direction: column;
+}
+
 .dobrodruzstvi {
     background-color: #407BFF;
     color: #FFFFFF;
@@ -77,7 +87,10 @@ p {
 
 
 
+.mapa {
+    size: 460px 80px;
 
+}
 
 
 
