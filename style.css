@@ -1,20 +1,21 @@
 body {
     background-color: #FAFAFA;
     width: 500px;
-    border: dotted;
+    border: dotted; 
     margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-/* @media screen and (min-width: 640px){}*/
+/* @media screen and (max-width: 640px){}*/
     
 
 .kontejner{
     display: flex;
     flex-direction: column;
     width: 500px;
+    height: 1657px;
     margin: 0 auto;
         
 
@@ -32,23 +33,32 @@ body {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 27px;
+    width: 194px;
+    height: 37px;
     color:#000000;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: 'Montserrat'; 
+    text-align: left;
+    margin: 20px 153px 20px 153px;
+    padding: 0;
+    
 }
 
 
 h2 {
-    font-size: 16px;
+    font-size: 15px;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 132px 15px 126px;
+    text-align: center;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #8B8B8B;
+    width: 460px;
+    height: 84px;
     
 }
 
@@ -66,6 +76,10 @@ p {
 .sluzbyDelegata {
     display: flex;
     flex-direction: column;
+    width: 258px;
+    height: 21px;
+    margin: 0 121px;
+    padding: 0;
 }
 
 .dobrodruzstvi {
@@ -74,6 +88,11 @@ p {
     opacity: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    width: 195px;
+    height: 40px;
+    margin: 30px 152px 0 153px;
+    border-radius: 20px;
+    padding: 11px 31px;
 
 }
 
@@ -83,6 +102,11 @@ p {
     opacity: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    width: 220px;
+    height: 40px;
+    margin: 10px 140px 60px 140px;
+    border-radius: 20px;
+    padding: 0;
 }
 
 
@@ -92,9 +116,32 @@ p {
 
 }
 
+p {
+    width: 460px;
+    margin: 0 20px;
+}
 
+.prvni {
+    height: 84px;
+}
 
+.druhy {
+    height: 66px;
+}
 
+.treti {
+    height: 69px;
+}
+
+.nadpisJedna {
+    width: 242px;
+    height: 21px;
+}
+
+.nadpisDva {
+    width: 258px;
+    height: 21px;
+}
 
 
 
