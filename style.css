@@ -112,7 +112,12 @@ p {
 
 
 .mapa {
-    size: 460px 80px;
+    width: 460px;
+    height: 80px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
 
 }
 
@@ -143,7 +148,17 @@ p {
     height: 21px;
 }
 
+.mapaPic {
+    width: 45px;
+    height: 40px;
+    margin: 20px 0 20px 20px;
+   }
 
+.mapaText {
+    width: 346px;
+    height: 28px;
+    margin: 32px 0 20px 0;
+}
 
 
 
