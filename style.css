@@ -1,14 +1,13 @@
 body {
     background-color: #FAFAFA;
     width: 500px;
-    border: dotted; 
     margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 
-/* @media screen and (max-width: 640px){}*/
+/* @media screen and (max-width: 640px){} */
     
 
 .kontejner {
@@ -16,18 +15,13 @@ body {
     flex-direction: column;
     width: 500px;
     height: 1657px;
-    margin: 0 auto;
-        
+    margin: 0 auto;   
 }
 
 
 .traveler {
     background-size: 350px 291px;
-    margin: 60px 75px;
-   
-    
-    
-    
+    margin: 60px 75px; 
 }
 
 h1 {
@@ -37,24 +31,33 @@ h1 {
     height: 37px;
     color:#000000;
     font-family: 'Montserrat'; 
+    /* font-weight: 500; */
     text-align: left;
-   /* font-weight: 500; */
-    margin: 20px 153px 20px 153px;
+    margin: 20px 153px 10px 153px;
     padding: 0;
-    
 }
 
+.cara {
+width: 60px;
+height: 2px;
+background-color: #407BFF;
+text-align: center;
+margin: 0 auto 32px auto;
+}
 
 h2 {
     font-size: 15px;
+    /* font-size: 16px; */
     color: #000000;
     font-family: 'Montserrat', sans-serif;
+    /* font-weight: 500; */
     margin: 0 132px 15px 126px;
     text-align: center;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    font-weight:300;
     font-size: 16px;
     color: #8B8B8B;
     width: 460px;
@@ -71,33 +74,33 @@ p {
     text-align: left;
 }
 
-.dobrodruzstvi {
-    background-color: #407BFF;
+.dobrodruzstvi, .pohoda {
     color: #FFFFFF;
     opacity: 100%;
     font-family: 'Montserrat', sans-serif;
+    /* font-weight: 400; */
     font-size: 13px;
-    width: 195px;
+    /* font-size: 14px; */
     height: 40px;
-    margin: 30px 152px 0 153px;
     border-radius: 20px;
-    padding: 11px 31px;
 
 }
+
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    width: 195px;
+    margin: 30px 152px 0 153px;
+    padding: 11px 31px;
+}
+
 
 .pohoda {
     background-color: #8B8B8B;
-    color: #FFFFFF;
-    opacity: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
     width: 220px;
-    height: 40px;
     margin: 10px 140px 60px 140px;
-    border-radius: 20px;
     padding: 0;
 }
-
 
 p {
     width: 460px;
@@ -127,17 +130,18 @@ p {
     height: 21px;
 }
 
-.mapa {
+.mapa, .kaktus, .letadlo {
     display: flex;
     width: 460px;
     height: 80px;
     box-shadow: 0 4px 6px #407BFF1F;
     border-radius: 10px;
     align-items: center;
-    margin: 0 20px;
     background-color: #FFFFFF;
-    
+}
 
+.mapa {
+    margin: 0 20px;
 }
 
 .mapaPic {
@@ -153,16 +157,7 @@ p {
 }
 
 .kaktus  {
-    display: flex;
-    width: 460px;
-    height: 80px;
-    box-shadow: 0 4px 6px #407BFF1F;
-    border-radius: 10px;
-    align-items: center;
     margin: 15px 20px 0 20px;
-    background-color: #FFFFFF;
-    
-
 }
 
 .kaktusPic {
@@ -178,14 +173,7 @@ p {
 }
 
 .letadlo  {
-    display: flex;
-    width: 460px;
-    height: 80px;
-    box-shadow: 0 4px 6px #407BFF1F;
-    border-radius: 10px;
-    align-items: center;
     margin: 15px 20px 60px 20px;
-    background-color: #FFFFFF;
 }
 
 
@@ -202,7 +190,7 @@ p {
    }
 
 
-.palma {
+.palma, .destnik, .karavan {
     display: flex;
     width: 460px;
     height: 80px;
@@ -211,7 +199,6 @@ p {
     align-items: center;
     margin: 15px 20px 0 20px;
     background-color: #FFFFFF;
-  
 }
 
 .palmaPic {
@@ -226,17 +213,6 @@ p {
     margin: 32px 20px 20px 0px;
    }
 
-.destnik {
-    display: flex;
-    width: 460px;
-    height: 80px;
-    box-shadow: 0 4px 6px #407BFF1F;
-    border-radius: 10px;
-    align-items: center;
-    margin: 15px 20px 0 20px;
-    background-color: #FFFFFF;
-  
-}
 
 .destnikPic {
     width: 50px;
@@ -250,17 +226,7 @@ p {
     margin: 32px 20px 20px 0px;
    }
 
-.karavan {
-    display: flex;
-    width: 460px;
-    height: 80px;
-    box-shadow: 0 4px 6px #407BFF1F;
-    border-radius: 10px;
-    align-items: center;
-    margin: 15px 20px 0 20px;
-    background-color: #FFFFFF;
-  
-}
+
 
 .karavanPic {
     width: 50px;
@@ -272,4 +238,4 @@ p {
     width: 346px;
     height: 28px;
     margin: 32px 20px 20px 0px;
-   }
+   } 
