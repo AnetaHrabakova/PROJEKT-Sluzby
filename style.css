@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-/* @media screen and (max-width: 640px){} */
+ @media screen and (max-width: 640px){ 
     
 
 .kontejner {
@@ -239,3 +239,5 @@ p {
     height: 28px;
     margin: 32px 20px 20px 0px;
    } 
+
+}
