@@ -45,8 +45,10 @@ margin: 0 auto 32px auto;
 }
 
 h2 {
-    font-size: 15px;
-    /* font-size: 16px; */
+   font-size: 15px;  
+   /* font-size: 16px; */
+    width: 242px;
+    height: 21px;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     /* font-weight: 500; */
@@ -61,6 +63,7 @@ p {
     color: #8B8B8B;
     width: 460px;
     height: 84px;
+    margin: 0 20px;
     
 }
 
@@ -101,10 +104,6 @@ p {
     padding: 0;
 }
 
-p {
-    width: 460px;
-    margin: 0 20px;
-}
 
 .prvni {
     height: 84px;
@@ -243,16 +242,240 @@ p {
 
 @media screen and (min-width: 640px){
 
+body {
+    width: 500px;
+}
+
 
 .kontejner {
+    display: flex;
+    flex-direction: column;
     width: 768px;
     height: 1461px;
+    margin: 0 auto;   
 }
 
 .traveler {
     background-size: 400px 332px;
-    margin: 60px 184px; 
+    margin: 60px 184px 30px 184px; 
 }
+
+h1 {
+    /* font-size: 28px; */
+    font-size: 27px;
+    width: 194px;
+    height: 37px;
+    color:#000000;
+    font-family: 'Montserrat'; 
+    /* font-weight: 500; */
+    text-align: left;
+    margin: 0 287px 10px 287px;
+    padding: 0;
+}
+
+.cara {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    }
+    
+h2 {
+    font-size: 15px;
+    /* font-size: 16px; */
+    width: 242px;
+    height: 21px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 500; */
+    margin: 80px 263px 17px 263px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    font-size: 16px;
+    color: #8B8B8B;
+    width: 550px;
+    height: 64px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+
+.sluzbyKancelare, .sluzbyDelegata {
+    font-size: 13px;
+    color: #8B8B8B;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    text-align: left;
+}
+
+.dobrodruzstvi, .pohoda {
+    color: #FFFFFF;
+    opacity: 100%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 400; */
+    font-size: 13px;
+    /* font-size: 14px; */
+    height: 40px;
+    border-radius: 20px;
+    
+}
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    width: 195px;
+    margin: 0px 20px 0 167px;
+    padding: 11px 31px 11px 30px;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    width: 220px;
+    margin: 0px 166px 80x 0px;
+    padding: 11px 30px 10px 30px;
+}
+
+.tlacitka {
+    display: flex;
+}
+.prvni {
+    width: 550px;
+    height: 64px;
+   
+  
+}
+
+.druhy {
+    height: 43px;
+    margin-bottom: 40px;
+}
+
+.treti {
+    height: 64px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.nadpisJedna {
+    width: 242px;
+    height: 21px;
+}
+
+.nadpisDva {
+    width: 258px;
+    height: 21px;
+}
+.mapa, .kaktus, .letadlo {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 172px;
+    box-shadow: 0 4px 6px #407BFF1F;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.mapa, .letadlo  {
+    margin: 0 20px;
+}
+.mapaPic {
+    width: 45px;
+    height: 40px;
+    margin: 40px 92px 20px 92px;
+   }
+
+   .mapaText {
+    width: 201px;
+    height: 51px;
+    margin: 0 15px 21px 14px;
+    text-align: center;
+}
+
+.kaktusPic {
+    width: 40px;
+    height: 40px;
+    margin: 40px 95px 20px 95px;
+   }
+
+   .kaktusText {
+    width: 199px;
+    height: 51px;
+    margin: 0 16px 21px 15px;
+    text-align: center;
+}
+.letadloPic {
+    width: 45px;
+    height: 40px;
+    margin: 40px 92px 20px 92px;
+   }
+
+   .letadloText {
+    width: 201px;
+    height: 51px;
+    margin: 0 14px 21px 15px;
+    text-align: center;
+   }
+   .palma, .destnik, .karavan {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 172px;
+    box-shadow: 0 4px 6px #407BFF1F;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.palma {
+    margin: 0px 20px 59px 20px;
+}
+.karavan{
+    margin: 0 18px 59px 20px;
+}
+
+.palmaPic {
+    width: 50px;
+    height: 40px;
+    margin: 40px 90px 20px 90px;
+   }
+
+   .palmaText {
+    width: 200px;
+    height: 51px;
+    margin: 0px 15px 21px 15px;
+    text-align: center;
+   }
+
+   .destnikPic {
+    width: 50px;
+    height: 40px;
+    margin: 40px 90px 20px 90px;
+   }
+
+   .destnikText {
+    width: 200px;
+    height: 51px;
+    margin: 0 15px 21px 15px;
+    text-align: center;
+   }
+
+   .karavanPic {
+    width: 50px;
+    height: 40px;
+    margin: 40px 90px 20px 90px;
+   }
+
+.karavanText {
+    width: 200px;
+    height: 51px;
+    margin: 0 15px 21px 15px;
+   } 
 
 
 
