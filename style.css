@@ -456,3 +456,61 @@ p {
    }
 
 }
+
+
+@media screen and (min-width: 1100px){
+
+body {
+        width: 1200px;
+        height: 1015px;
+        padding-left: 82px;
+    }
+
+.kontejner {
+        width: 1040px;
+}
+
+.prvniSekce {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   width: 490px;
+}
+
+.prvni {
+    width: 490px;
+    height: 65px;
+    font-size: 15px;
+ 
+}
+ h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 133px;
+ }
+ .cara {
+    margin-left: 0;
+ }
+
+ .dobrodruzstvi {
+    margin-left: 0;
+ }
+
+
+.traveler{
+
+    background-size: 426px 354px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 60px 110px 119px 94px; 
+  
+}
+
+.sluzbyKancelare {
+    display: flex;
+    width: 550px;
+}
+
+
+}
