@@ -424,6 +424,8 @@ p {
     margin: 0 14px 21px 15px;
     
    }
+
+
    .palma, .destnik, .karavan {
     display: flex;
     flex-direction: column;
@@ -507,10 +509,130 @@ body {
   
 }
 
-.sluzbyKancelare {
+.mapa, .kaktus, .letadlo {
     display: flex;
+    /*flex-direction: column;*/
+    width: 170px;
+    height: 191px;
+    box-shadow: 0 4px 6px #407BFF1F;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.mapaPic {
+    width: 45px;
+    height: 40px;
+    margin: 40px 62px 20px 63px;
+   }
+   .kaktusPic {
+    width: 40px;
+    height: 40px;
+    margin: 40px 65px 20px 65px;
+   }
+
+   .letadloPic {
+    width: 45px;
+    height: 40px;
+    margin: 40px 62px 20px 63px;
+   }
+
+
+   .mapaText, .kaktusText, .letadloText {
+    height: 51px;
+    width: 140px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.sluzbyKancelare {
     width: 550px;
 }
+
+.kaktus {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.mapa, .letadlo {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.druhaSekce{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 430px;
+    margin-right: 0;
+    margin-left: 60px;
+
+}
+
+.nadpisJedna {
+    width: 242px;
+    height: 20px;
+   
+}
+
+.druhy {
+    width: 430px;
+    height: 76px;
+    text-align: left;
+   
+}
+
+
+   .palma, .destnik, .karavan {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 191px;
+    box-shadow: 0 4px 6px #407BFF1F;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FFFFFF;
+   
+}
+
+
+.sluzbyDelegata {
+    display: flex;
+    width: 430px;
+    margin: 0;
+}
+
+.palma {
+    margin-left: 0;
+}
+
+.palmaPic, .destnikPic, .karavanPic {
+    width: 50px;
+    height: 40px;
+    margin: 40px 60px 20px 60px;
+   }
+
+   .palmaText, .destnikText, .karavanText {
+    width: 140px;
+    height: 51px;
+    margin: 0px 15px 40px 15px;
+    text-align: center;
+   }
+
+   .destnik {
+    margin: 0;
+   }
+
+.treti {
+    width: 430px;
+    height: 76px;
+    text-align: left;
+}
+
+
+
+
 
 
 }
