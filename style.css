@@ -501,11 +501,9 @@ body {
 
 .traveler{
 
-    background-size: 426px 354px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 60px 110px 119px 94px; 
+   background-size: 426px 354px;
+   top: 0;
+   margin: 60px auto 80px auto; 
   
 }
 
@@ -580,6 +578,7 @@ body {
     width: 430px;
     height: 76px;
     text-align: left;
+    margin-bottom: 0;
    
 }
 
@@ -630,9 +629,45 @@ body {
     text-align: left;
 }
 
+.flex1, .flex2 {
+    display: flex;
+    margin-top: 80px;
+}
 
+.druhaSekce {
+    order: 2;
+    margin-bottom: 0;
+   
+}
 
+.nadpisDva {
+    width: 258px;
+    height: 21px;
+    text-align: left;
+    margin-left: 0;
+}
 
+.flex3 {
+    flex-direction: column;
+    width: 430px;
+    margin-right: 60px;
+}
 
+.nadpisJedna {
+    margin-left: 0;
+}
 
+.flex0 {
+    display: flex;
+}
+.flex4 {
+    order: 2;
+    width: 425px;
+    height: 353px;
+}
+
+.flex5 {
+    flex-direction: column;
+    margin-right: 94px;
+}
 }
