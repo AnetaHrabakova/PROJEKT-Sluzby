@@ -386,8 +386,9 @@ body {
         height: 1015px;
         padding-left: 82px;
     }
-.kontejner {
-        width: 1040px;
+.kontejner {margin: 60px auto;
+       max-width: 1040px;
+
 }
 .prvniSekce {
    display: flex;
